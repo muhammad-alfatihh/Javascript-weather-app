@@ -1,18 +1,18 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #dadada;
+    background-color: #a5bde4;
     margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#weather-form {
+.weatherForm {
     margin: 20px;
     
 }
 
-#input {
+.cityInput {
     padding: 7px;
     font-size: 1rem;
     border: solid 2px hsl(0, 0%, 55%);
@@ -34,14 +34,21 @@ button:hover {
     color: white;
 }  
 
-#main-container{
+.card{
     width: 340px;
-    background-color: rgb(105, 152, 255);
-    text-align: center;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
     border-radius: 20px;
+    flex-direction: column;
+    display: flex;
+
 }
 
 .card-items {
     margin: 10px;
     color: hsl(0, 4%, 22%);
+}
+
+.error {
+    color: red;
 }
